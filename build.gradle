@@ -8,8 +8,10 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = JavaVersion.VERSION_11 // 현재 프로젝트에 호환되는 Java 버전으로 변경
+    targetCompatibility = JavaVersion.VERSION_11
 }
+
 
 repositories {
     mavenCentral()
